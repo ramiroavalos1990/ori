@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CCC0EA92-4068-4DBA-AA85-9A976FC3561A}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{CCC0EA92-4068-4DBA-AA85-9A976FC3561A}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Gameplay" ID="{86EE1BD5-8059-4CCD-BE34-352BCF049FAE}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{16DD89E0-FD5A-4BD3-97A4-4F343412157E}"/>
+						<State Name="Exploration" ID="{9A6B2747-8714-446F-B339-2D8DF0A2F260}"/>
+						<State Name="Combat" ID="{0CFC6DF8-56B2-4822-A2B3-BA7A3E48C619}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Combat" ID="{0CFC6DF8-56B2-4822-A2B3-BA7A3E48C619}"/>
+							<EndState Name="Exploration" ID="{9A6B2747-8714-446F-B339-2D8DF0A2F260}"/>
+							<Time>2.5</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

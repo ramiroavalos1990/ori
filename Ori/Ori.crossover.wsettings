@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="UserProjectSettings" SchemaVersion="119">
+	<UserProjectSettingsInfo>
+		<UserProjectSettings Name="" ID="{E3CFBB89-A1AD-473E-875C-04DDECEA680D}">
+			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Documents\MMVJ\MVJ2\Stems\"/>
+				<Property Name="Event Action List\{15EEC75A-F76C-47D5-A51D-2B8B2AD6C9DE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{8B51071B-331B-4B64-BDFD-44F0A5E456F8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="ExternalSourcesInputPath" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="ExternalSourcesOutputPath" Type="string">
+					<ValueList>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+					</ValueList>
+				</Property>
+				<Property Name="Interactive Music\x64_{152B2488-50B8-4C6A-910B-2D0C1E669B4A} - SegmentEditorZoomInfo" Type="string" Value="g3sa6zgdnj8AAAAAAADwPwAAAAAAOGZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{386F7F36-AEE1-4001-BEAB-EB96DD26FDF4} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzRPHdE9lBJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{7B5DDEB4-7540-4528-AE21-3EB82976912D} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPywOA52IwxJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAQGFA"/>
+				<Property Name="Interactive Music\x64_{AF688055-0E4B-4DD4-90FE-BCE7090A284E} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAOGZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{C70FA4B7-09C5-45AE-B9B2-6B84DE289D57} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPywOA52IwxJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{E7CD4AF2-0419-408B-978E-B0331021EF88} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAOGZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="ListView\SearchText" Type="string" Value="$ &quot;\Interactive Music Hierarchy\Default Work Unit\Moon Grotto\Combat&quot;"/>
+				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
+				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
+				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{106317C5-5EC0-42B1-AE5D-5276D28F4AD0}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{106317C5-5EC0-42B1-AE5D-5276D28F4AD0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{7380286D-8873-4C89-A2EC-4AE78E5DEB0E}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{7380286D-8873-4C89-A2EC-4AE78E5DEB0E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{97D0D70B-8445-4485-AD53-C16DE06B8537}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{97D0D70B-8445-4485-AD53-C16DE06B8537}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{EAE920B0-6A87-46F4-8C6A-44CE36351045}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{EAE920B0-6A87-46F4-8C6A-44CE36351045}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{F9FD03E3-804E-46E6-BBA4-9AC8E5324299}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{F9FD03E3-804E-46E6-BBA4-9AC8E5324299}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankPaths" Type="string">
+					<ValueList>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{D0F1B00E-A679-4BC9-98DD-510536FBCE69}"/>
+			</PropertyList>
+		</UserProjectSettings>
+	</UserProjectSettingsInfo>
+</WwiseDocument>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EED824E7-CBC0-4D5A-B521-086770CBE3C0}" SchemaVersion="119">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{EED824E7-CBC0-4D5A-B521-086770CBE3C0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test" ID="{D0F1B00E-A679-4BC9-98DD-510536FBCE69}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="SetState_Combat" ID="{15EEC75A-F76C-47D5-A51D-2B8B2AD6C9DE}" WorkUnitID="{B23DA7B7-0A4F-46C9-83A9-AB9C933BDFEA}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetState_Exploration" ID="{8B51071B-331B-4B64-BDFD-44F0A5E456F8}" WorkUnitID="{B23DA7B7-0A4F-46C9-83A9-AB9C933BDFEA}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Moon Grotto" ID="{106317C5-5EC0-42B1-AE5D-5276D28F4AD0}" WorkUnitID="{5083CDB3-5515-4CA7-9034-6D3714C3CB2F}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Combat" ID="{0CFC6DF8-56B2-4822-A2B3-BA7A3E48C619}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

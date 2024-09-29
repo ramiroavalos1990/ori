@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B23DA7B7-0A4F-46C9-83A9-AB9C933BDFEA}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B23DA7B7-0A4F-46C9-83A9-AB9C933BDFEA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="SetState_Combat" ID="{15EEC75A-F76C-47D5-A51D-2B8B2AD6C9DE}">
+					<ChildrenList>
+						<Action Name="" ID="{3E1B7724-FDF4-44A5-B91C-4ADC428B8DAE}" ShortID="855082205">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Combat" ID="{0CFC6DF8-56B2-4822-A2B3-BA7A3E48C619}" WorkUnitID="{CCC0EA92-4068-4DBA-AA85-9A976FC3561A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SetState_Exploration" ID="{8B51071B-331B-4B64-BDFD-44F0A5E456F8}">
+					<ChildrenList>
+						<Action Name="" ID="{8649A92F-46D1-4B3E-AD33-2670CC281D5F}" ShortID="620594127">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exploration" ID="{9A6B2747-8714-446F-B339-2D8DF0A2F260}" WorkUnitID="{CCC0EA92-4068-4DBA-AA85-9A976FC3561A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
