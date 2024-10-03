@@ -16,10 +16,21 @@
 						<Transition>
 							<StartState Name="Combat" ID="{0CFC6DF8-56B2-4822-A2B3-BA7A3E48C619}"/>
 							<EndState Name="Exploration" ID="{9A6B2747-8714-446F-B339-2D8DF0A2F260}"/>
-							<Time>2.5</Time>
+							<Time>2</Time>
 							<IsShared>true</IsShared>
 						</Transition>
 					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="Player_state" ID="{D0E7FBF5-87E0-48F1-9AE5-A9949C650892}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{265BE8AC-769C-4C90-B9C8-C729733F68EC}"/>
+						<State Name="Normal" ID="{EABFEBC3-2A7B-48E1-AEBD-A6D4B0FCD007}"/>
+						<State Name="Hover" ID="{5619A394-EFE2-402C-92AB-C009E387CCAF}"/>
+						<State Name="Swim" ID="{A5FB7D21-B352-43B6-A721-2A30F14503BA}"/>
+					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>

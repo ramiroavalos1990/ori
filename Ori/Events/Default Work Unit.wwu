@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{B23DA7B7-0A4F-46C9-83A9-AB9C933BDFEA}" PersistMode="Standalone">
 			<ChildrenList>
 				<Event Name="SetState_Combat" ID="{15EEC75A-F76C-47D5-A51D-2B8B2AD6C9DE}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="23"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{3E1B7724-FDF4-44A5-B91C-4ADC428B8DAE}" ShortID="855082205">
 							<PropertyList>
@@ -18,6 +22,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="SetState_Exploration" ID="{8B51071B-331B-4B64-BDFD-44F0A5E456F8}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="23"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{8649A92F-46D1-4B3E-AD33-2670CC281D5F}" ShortID="620594127">
 							<PropertyList>
@@ -31,6 +39,138 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Zone switches" ID="{BAF0F474-4D9A-4730-A788-77790661453A}" ShortID="610394580">
+					<ChildrenList>
+						<Event Name="Set_Switch_Ginso_Tree" ID="{B070BFD4-2A5D-42ED-A7AB-8B46ACC047D0}">
+							<ChildrenList>
+								<Action Name="" ID="{A8DE7181-2A79-475A-8779-320837706A80}" ShortID="266082096">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ginso_Tree" ID="{9A1EB312-CAC1-4AB9-8BD0-23FA18149873}" WorkUnitID="{53F38A0E-1EA8-48B0-BCA1-569016EBD008}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{11F0C216-9927-424F-B7A7-C481DE28511F}" ShortID="742978691">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{D88823F6-C850-4873-B683-366FF22FC617}" ShortID="415488616">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ginso Tree" ID="{FD2C69B9-82F6-4E1B-9DB3-F5F080616259}" WorkUnitID="{5083CDB3-5515-4CA7-9034-6D3714C3CB2F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Switch_Thornfelt_Swamp" ID="{717F51BE-64B6-4B0A-AD0C-A23DB7A01BD2}">
+							<ChildrenList>
+								<Action Name="" ID="{9DED1AC5-0600-4386-9128-0D893F84E567}" ShortID="725619714">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Thornfelt_Swamp" ID="{45EDEF44-5800-43E9-8BA1-FFD4D2DD9949}" WorkUnitID="{53F38A0E-1EA8-48B0-BCA1-569016EBD008}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F24D1323-467A-41DA-A350-5997D6CB7003}" ShortID="577268657">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{3A022F36-CAC2-48A3-982D-771032EEAC40}" ShortID="17111062">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Thornfelt Swamp" ID="{106317C5-5EC0-42B1-AE5D-5276D28F4AD0}" WorkUnitID="{5083CDB3-5515-4CA7-9034-6D3714C3CB2F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player actions" ID="{1BE63632-35C2-4285-83BE-15A29AD93766}" ShortID="234340328">
+					<ChildrenList>
+						<Event Name="Hover_on" ID="{FC7CFBAA-4FFC-4578-960F-8544C1B0A9AC}">
+							<ChildrenList>
+								<Action Name="" ID="{6CBF7D78-095C-45B8-966E-D2FEBB992B75}" ShortID="225410450">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hover" ID="{5619A394-EFE2-402C-92AB-C009E387CCAF}" WorkUnitID="{CCC0EA92-4068-4DBA-AA85-9A976FC3561A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Hover_off" ID="{49F518AB-7C05-4B8E-B771-B855005B47FD}">
+							<ChildrenList>
+								<Action Name="" ID="{C75D6D10-8850-4BCA-86E3-5D6E1F354049}" ShortID="968831368">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Normal" ID="{EABFEBC3-2A7B-48E1-AEBD-A6D4B0FCD007}" WorkUnitID="{CCC0EA92-4068-4DBA-AA85-9A976FC3561A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Swim_on" ID="{3963C9EC-AB5A-4343-BCF7-A43B4D9D8021}">
+							<ChildrenList>
+								<Action Name="" ID="{2D661EBC-0C6A-4D8D-959A-B4746FD00B7E}" ShortID="1013636071">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Swim" ID="{A5FB7D21-B352-43B6-A721-2A30F14503BA}" WorkUnitID="{CCC0EA92-4068-4DBA-AA85-9A976FC3561A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Swim_off" ID="{2822D3BA-6548-4CAA-A525-82C4FF997CAA}">
+							<ChildrenList>
+								<Action Name="" ID="{F83E0BF1-6DCD-4DD9-8ECD-A02420078A83}" ShortID="1033247062">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Normal" ID="{EABFEBC3-2A7B-48E1-AEBD-A6D4B0FCD007}" WorkUnitID="{CCC0EA92-4068-4DBA-AA85-9A976FC3561A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Death" ID="{F1C5457A-8A1D-4EF5-8079-94283EFCA27D}">
+							<ChildrenList>
+								<Action Name="" ID="{EB243FC4-B06B-4A6E-BD87-73D5188CF98B}" ShortID="489871858">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Death" ID="{94C973AE-159F-43DA-81A5-63932849B60A}" WorkUnitID="{E233A9CE-5A91-491F-AF7F-60E1E936D285}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

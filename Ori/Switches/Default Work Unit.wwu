@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{53F38A0E-1EA8-48B0-BCA1-569016EBD008}" SchemaVersion="119">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{53F38A0E-1EA8-48B0-BCA1-569016EBD008}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{53F38A0E-1EA8-48B0-BCA1-569016EBD008}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Zone" ID="{93815817-A7F9-4185-8138-08E101CC17A3}">
+					<ChildrenList>
+						<Switch Name="Thornfelt_Swamp" ID="{45EDEF44-5800-43E9-8BA1-FFD4D2DD9949}"/>
+						<Switch Name="Ginso_Tree" ID="{9A1EB312-CAC1-4AB9-8BD0-23FA18149873}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

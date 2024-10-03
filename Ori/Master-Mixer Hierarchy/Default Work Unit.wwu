@@ -9,6 +9,68 @@
 							<ObjectRef Name="System" ID="{B4D5010D-29A0-4FA7-88FA-879AF68A9B21}" WorkUnitID="{81DE5548-2E73-45CE-A246-628693347689}"/>
 						</Reference>
 					</ReferenceList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Player_state" ID="{D0E7FBF5-87E0-48F1-9AE5-A9949C650892}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Hover" ID="{5619A394-EFE2-402C-92AB-C009E387CCAF}"/>
+								<CustomState Name="" ID="{170583BD-A882-47D9-9558-C390E0F81920}" ShortID="1009030412">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16" Value="52"/>
+										<Property Name="Pitch" Type="int32" Value="-4800"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Swim" ID="{A5FB7D21-B352-43B6-A721-2A30F14503BA}"/>
+								<CustomState Name="" ID="{ADBDCB3A-6756-4641-BD91-004A71E1FC91}" ShortID="13644615">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="65"/>
+										<Property Name="Volume" Type="Real64" Value="-2"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Normal" ID="{EABFEBC3-2A7B-48E1-AEBD-A6D4B0FCD007}"/>
+								<CustomState Name="" ID="{2B3D7811-7755-44D0-8BDB-6253B7429FBA}" ShortID="1069299367"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{570A6D9F-3F89-4CAB-B9D5-BCAE75626BCB}" ShortID="9287099">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+												<ObjectRef Name="Octave_Down" ID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+										<StateInfo>
+											<CustomStateList>
+												<CustomState>
+													<StateRef Name="Hover" ID="{5619A394-EFE2-402C-92AB-C009E387CCAF}"/>
+													<CustomState Name="" ID="{FCB819E0-A5D0-4245-9696-696CB7A329C3}" ShortID="93618993"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Swim" ID="{A5FB7D21-B352-43B6-A721-2A30F14503BA}"/>
+													<CustomState Name="" ID="{CF4C5FA8-52B7-470E-B219-67743E26C2F0}" ShortID="357701387"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Normal" ID="{EABFEBC3-2A7B-48E1-AEBD-A6D4B0FCD007}"/>
+													<CustomState Name="" ID="{6CCB8B4F-9B11-41B5-BF5C-D5D8416428FC}" ShortID="974517931"/>
+												</CustomState>
+											</CustomStateList>
+										</StateInfo>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

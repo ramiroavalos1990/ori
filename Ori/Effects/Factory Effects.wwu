@@ -1955,9 +1955,31 @@
 								</Effect>
 								<Effect Name="Octave_Down" ID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
 									<PropertyList>
+										<Property Name="DelayTime" Type="Real32" Value="53"/>
 										<Property Name="DryLevel" Type="Real32" Value="0"/>
 										<Property Name="Pitch" Type="Real32" Value="-1200"/>
 									</PropertyList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Player_state" ID="{D0E7FBF5-87E0-48F1-9AE5-A9949C650892}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Hover" ID="{5619A394-EFE2-402C-92AB-C009E387CCAF}"/>
+												<CustomState Name="" ID="{68A4CA97-292F-4462-9999-5CC6448103CF}" ShortID="680236765"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Swim" ID="{A5FB7D21-B352-43B6-A721-2A30F14503BA}"/>
+												<CustomState Name="" ID="{DFA3D72D-771A-47CF-9BA9-5E4BCA04D4F1}" ShortID="679991815"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Normal" ID="{EABFEBC3-2A7B-48E1-AEBD-A6D4B0FCD007}"/>
+												<CustomState Name="" ID="{63893767-E34B-4A7A-A8F4-A25A54262723}" ShortID="1036067261"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -1979,6 +2001,27 @@
 										<Property Name="Input" Type="int32" Value="1"/>
 										<Property Name="Pitch" Type="Real32" Value="-500"/>
 									</PropertyList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Player_state" ID="{D0E7FBF5-87E0-48F1-9AE5-A9949C650892}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Hover" ID="{5619A394-EFE2-402C-92AB-C009E387CCAF}"/>
+												<CustomState Name="" ID="{015ECC19-A8FA-4F6B-BF40-6662A3F777E1}" ShortID="971490719"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Swim" ID="{A5FB7D21-B352-43B6-A721-2A30F14503BA}"/>
+												<CustomState Name="" ID="{E743BA89-6380-4FA0-A80D-3019BEFC7EF8}" ShortID="746365576"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Normal" ID="{EABFEBC3-2A7B-48E1-AEBD-A6D4B0FCD007}"/>
+												<CustomState Name="" ID="{25E26A58-87DF-4724-9F7F-1AEF35995B64}" ShortID="524140801"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</Effect>
 							</ChildrenList>
 						</Folder>

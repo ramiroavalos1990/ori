@@ -4,8 +4,21 @@
 		<UserProjectSettings Name="" ID="{E3CFBB89-A1AD-473E-875C-04DDECEA680D}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Documents\MMVJ\MVJ2\Stems\"/>
+				<Property Name="Event Action List\{14C8A333-68E6-470C-BCC2-BED63714DD41}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{155DFCCF-45B2-4243-8995-D12421F2AC10}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{15EEC75A-F76C-47D5-A51D-2B8B2AD6C9DE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2822D3BA-6548-4CAA-A525-82C4FF997CAA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3963C9EC-AB5A-4343-BCF7-A43B4D9D8021}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3AAA79C8-45E8-4A13-A389-CF2FFB630CDB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{42A95B1D-4554-49D6-8726-39B9D7CA5144}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{49F518AB-7C05-4B8E-B771-B855005B47FD}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5E7B02C0-0553-49D9-B5E6-DE667B8C39F6}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{717F51BE-64B6-4B0A-AD0C-A23DB7A01BD2}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7CF4E85A-9EC6-44BB-9829-FCD81217745F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8B51071B-331B-4B64-BDFD-44F0A5E456F8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B070BFD4-2A5D-42ED-A7AB-8B46ACC047D0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DA88A67B-CF59-4AD3-BE57-CE940AC25A25}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{FC7CFBAA-4FFC-4578-960F-8544C1B0A9AC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
@@ -17,8 +30,12 @@
 					</ValueList>
 				</Property>
 				<Property Name="Interactive Music\x64_{152B2488-50B8-4C6A-910B-2D0C1E669B4A} - SegmentEditorZoomInfo" Type="string" Value="g3sa6zgdnj8AAAAAAADwPwAAAAAAOGZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{1A546F09-021B-4DCB-8F60-32520982E034} - SegmentEditorZoomInfo" Type="string" Value="kzDUrRPdAkAAAAAAAADwPzRPHdE9lBJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{386F7F36-AEE1-4001-BEAB-EB96DD26FDF4} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzRPHdE9lBJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
-				<Property Name="Interactive Music\x64_{7B5DDEB4-7540-4528-AE21-3EB82976912D} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPywOA52IwxJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAQGFA"/>
+				<Property Name="Interactive Music\x64_{535701C6-862D-41AC-8355-90DE06F24342} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzRPHdE9lBJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAADlA"/>
+				<Property Name="Interactive Music\x64_{7114BDE9-C209-40C3-937A-2414DCD16934} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzRPHdE9lBJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAADxA"/>
+				<Property Name="Interactive Music\x64_{78B3B943-4B1F-4DBC-9222-AA8536737CA4} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAAGZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{7B5DDEB4-7540-4528-AE21-3EB82976912D} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPywOA52IwxJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{AF688055-0E4B-4DD4-90FE-BCE7090A284E} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAOGZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{C70FA4B7-09C5-45AE-B9B2-6B84DE289D57} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPywOA52IwxJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{E7CD4AF2-0419-408B-978E-B0331021EF88} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAOGZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
@@ -29,16 +46,34 @@
 				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{0FF50280-968D-467C-ADC8-628E52BBE611}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{0FF50280-968D-467C-ADC8-628E52BBE611}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{106317C5-5EC0-42B1-AE5D-5276D28F4AD0}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{106317C5-5EC0-42B1-AE5D-5276D28F4AD0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{558FD405-BD32-435B-9153-4A4289BD4EC5}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{558FD405-BD32-435B-9153-4A4289BD4EC5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{596AF279-79A1-417C-BCC8-D9B1E589A744}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{596AF279-79A1-417C-BCC8-D9B1E589A744}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{6FAB8211-2585-4235-9A30-30AEE4E64B93}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{6FAB8211-2585-4235-9A30-30AEE4E64B93}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{7380286D-8873-4C89-A2EC-4AE78E5DEB0E}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{7380286D-8873-4C89-A2EC-4AE78E5DEB0E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{869F1400-5EC3-4344-9564-32B967B39A96}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{869F1400-5EC3-4344-9564-32B967B39A96}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{928C064A-F626-412E-B176-EA6FCE43EBE9}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{928C064A-F626-412E-B176-EA6FCE43EBE9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{97D0D70B-8445-4485-AD53-C16DE06B8537}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{97D0D70B-8445-4485-AD53-C16DE06B8537}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{C25F57C9-4565-462E-BB7E-E6579629C173}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{C25F57C9-4565-462E-BB7E-E6579629C173}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{EAE920B0-6A87-46F4-8C6A-44CE36351045}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{EAE920B0-6A87-46F4-8C6A-44CE36351045}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{F9FD03E3-804E-46E6-BBA4-9AC8E5324299}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{F9FD03E3-804E-46E6-BBA4-9AC8E5324299}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{FB242297-7961-402C-80EF-24B0070FCE2F}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{FB242297-7961-402C-80EF-24B0070FCE2F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{FD2C69B9-82F6-4E1B-9DB3-F5F080616259}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{FD2C69B9-82F6-4E1B-9DB3-F5F080616259}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
