@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="119">
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1720368038" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Virtual Acoustics\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Triggers\Default Work Unit.wwu" DateLow="1727995365" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Switches\Default Work Unit.wwu" DateLow="1727958061" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\States\Default Work Unit.wwu" DateLow="1727991071" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1727995905" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\SoundBanks\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Queries\Factory Queries.wwu" DateLow="1720368038" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Queries\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Presets\Factory Spatial Audio.wwu" DateLow="1720368038" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Presets\Factory Reflect.wwu" DateLow="1720368069" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Presets\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Ori.wproj" DateLow="1727554690" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Ori.crossover.wsettings" DateLow="1727995909" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Modulators\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Mixing Sessions\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Metadata\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1727991071" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1727995365" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Game Parameters\Factory Soundseed Air Game Syncs.wwu" DateLow="1720368070" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Game Parameters\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Events\Default Work Unit.wwu" DateLow="1727995365" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Effects\Factory Reflect.wwu" DateLow="1720368069" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Effects\Factory McDSP Effects.wwu" DateLow="1720368073" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Effects\Factory Mastering Suite.wwu" DateLow="1720368069" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1720368072" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1720368072" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1720368072" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Effects\Factory iZotope Filters.wwu" DateLow="1720368072" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Effects\Factory iZotope Dynamics.wwu" DateLow="1720368072" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Effects\Factory iZotope Delay.wwu" DateLow="1720368072" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Effects\Factory iZotope Box Modeler.wwu" DateLow="1720368072" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Effects\Factory Effects.wwu" DateLow="1727991071" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Effects\Factory Auro Headphone.wwu" DateLow="1720368070" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Effects\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1720368038" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Conversion Settings\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Control Surface Sessions\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Audio Devices\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Attenuations\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1720368038" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Actor-Mixer Hierarchy\Factory Soundseed Air Objects.wwu" DateLow="1720368070" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Repo Ori\Ori\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Ori\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1720368038" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Ori\Virtual Acoustics\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\MMVJ\MVJ2\Ori\Triggers\Default Work Unit.wwu" DateLow="1727554690" DateHigh="0"/>

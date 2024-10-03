@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{E233A9CE-5A91-491F-AF7F-60E1E936D285}" PersistMode="Standalone">
 			<ChildrenList>
 				<Trigger Name="Death" ID="{94C973AE-159F-43DA-81A5-63932849B60A}"/>
+				<Trigger Name="Hover_on" ID="{D9B48F96-A712-4CD5-B26C-109572B1750B}"/>
+				<Trigger Name="Hover_off" ID="{7214DC76-C598-402D-9555-F69DBE7714A6}"/>
+				<Trigger Name="Objective_complete" ID="{EE6D5612-5C2F-4F45-9E2C-23423A5D1114}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Triggers>

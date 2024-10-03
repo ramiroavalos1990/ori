@@ -101,9 +101,20 @@
 					<ChildrenList>
 						<Event Name="Hover_on" ID="{FC7CFBAA-4FFC-4578-960F-8544C1B0A9AC}">
 							<ChildrenList>
+								<Action Name="" ID="{8BC16AC1-D6AF-45DE-9C2B-49CF13170897}" ShortID="677403501">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hover_on" ID="{D9B48F96-A712-4CD5-B26C-109572B1750B}" WorkUnitID="{E233A9CE-5A91-491F-AF7F-60E1E936D285}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{6CBF7D78-095C-45B8-966E-D2FEBB992B75}" ShortID="225410450">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="22"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -122,6 +133,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Normal" ID="{EABFEBC3-2A7B-48E1-AEBD-A6D4B0FCD007}" WorkUnitID="{CCC0EA92-4068-4DBA-AA85-9A976FC3561A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4C7077E3-62EF-4044-9A42-06B59FFFCDBC}" ShortID="1069432403">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hover_off" ID="{7214DC76-C598-402D-9555-F69DBE7714A6}" WorkUnitID="{E233A9CE-5A91-491F-AF7F-60E1E936D285}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -164,6 +185,20 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Death" ID="{94C973AE-159F-43DA-81A5-63932849B60A}" WorkUnitID="{E233A9CE-5A91-491F-AF7F-60E1E936D285}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Objective_complete" ID="{AD74FA77-5111-4DE4-BCCB-331B49FA13C3}">
+							<ChildrenList>
+								<Action Name="" ID="{E493C95B-43D7-454D-ACF6-46B387E5F0BF}" ShortID="317025491">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Objective_complete" ID="{EE6D5612-5C2F-4F45-9E2C-23423A5D1114}" WorkUnitID="{E233A9CE-5A91-491F-AF7F-60E1E936D285}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
